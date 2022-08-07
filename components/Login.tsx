@@ -24,7 +24,6 @@ const Login = ({ user, handleData, isValid }: UserType) => {
     })
       .then((response) => response.json())
       .then((res) => {
-        console.log(res);
         if (res.message === "성공적으로 로그인 했습니다") {
           alert("로그인 성공!");
           localStorage.setItem("Authorization", res.token);
