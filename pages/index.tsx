@@ -105,6 +105,8 @@ const Home = () => {
       alert("가장 이전 글입니다");
     }
   };
+
+  console.log(todoList);
   return (
     <div className="w-screen h-screen">
       <div className="h-8 text-[1rem] flex flex-row justify-end">
